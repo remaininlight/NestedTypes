@@ -3766,6 +3766,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	    this.silent = options.silent;
 	    this.parse  = options.parse;
 	    this.merge  = options.merge;
+	    // ADDED Pass through .triggeredByDeepstream too
+	    this.fromDeepstream = options.fromDeepstream;
 	
 	    // at option
 	    var at = options.at;
@@ -4010,6 +4012,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	    return toAdd;
 	}
+
 
 /***/ },
 /* 17 */
